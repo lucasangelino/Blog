@@ -1,11 +1,19 @@
-import React, { useState } from "react";
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0);
+import { ChakraProvider } from "@chakra-ui/react";
 
-  return <div className="App"></div>;
+// UI Components
+import Navbar from "./components/ui/navbar/Navbar";
+
+function App() {
+  return (
+    <ChakraProvider>
+      <div className="App">
+        <Navbar />
+      </div>
+    </ChakraProvider>
+  );
 }
 
 export default App;
