@@ -5,9 +5,10 @@ export const NAV_ITEMS = [
       {
         label: "Porque hago esto",
         subLabel: "El conocimiento no debe ser crea...",
-        href: "#",
+        href: "/inspiration",
       },
     ],
+    href: "/inspiration",
   },
   // Comment this in order to remeber how to write the navbat items
   // {

@@ -38,9 +38,6 @@ export default function Navbar() {
 
   return (
     <>
-      <button type="button" onClick={() => setIsUserLogged(!isUserLogged)}>
-        Sign in
-      </button>
       <Box>
         <Flex
           bg={useColorModeValue("white", "gray.800")}
